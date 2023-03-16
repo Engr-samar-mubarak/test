@@ -1,0 +1,33 @@
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-item {
+    margin-right: 10px;
+  }
+  
+  .nav-link {
+    color: #fff;
+  }
+  
+  .nav-link:hover {
+    color: #f8f9fa;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-nav.ml-auto {
+      margin: 0;
+    }
+    
+    .nav-link {
+      padding: 0.5rem 0;
+      color: #fff;
+      display: block;
+    }
+    
+    .navbar-collapse {
+      margin-top: 10px;
+    }
+  }
+  
